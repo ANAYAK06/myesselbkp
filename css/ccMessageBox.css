@@ -1,0 +1,72 @@
+﻿.ccPopup
+{
+    visibility: hidden; 
+    position: absolute; 
+    border: solid 2px black; 
+    background-color: #FFFFFF; 
+    z-index: 10;
+}
+
+.ccPopupTitle
+{
+    padding-top: 3px; 
+    height: 18px;
+    background-color: #7c8894;
+    color: #FFFFFF;
+    font-weight: bold;    
+    background-image: url(../images/title_back.jpg);
+    text-align: center;
+    padding-left: 29px;  
+    font-size: 12pt;
+    line-height: 10pt; 
+}
+
+.ccPopupClose
+{
+    float: right;
+    width: 29px;
+    height: 21px;
+    background-image: url(../images/title_close.jpg);    
+}
+
+.ccPopupWarningIcon
+{
+    float: left;
+    background: #FFFFFF url(../images/warning.png) no-repeat;
+    margin: 5px;
+    width: 70px;
+    height: 64px;
+}
+.ccPopupInfoIcon
+{
+    float: left;
+    background: #FFFFFF url(../images/info.png) no-repeat;
+    margin: 5px;
+    width: 70px;
+    height: 64px;
+
+}
+.ccPopupErrorIcon
+{
+    float: left;
+    background: #FFFFFF url(../images/error.png) no-repeat;
+    margin: 5px;
+    width: 70px;
+    height: 64px;
+}
+
+.ccPopupMessage
+{
+    padding: 5px;
+    text-align: left;
+    text-align: left;
+}
+
+.ccPopupButton
+{
+    width: 100px;
+    border: solid 1px black;
+    background: #7c8894 url(../images/title_back.jpg) repeat-x;
+    color: White;
+    font-weight: bold;
+}

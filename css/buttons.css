@@ -1,0 +1,228 @@
+﻿		
+		/*BUTTON CSS STARTS*/
+		
+		
+		.submitbtn
+        {
+            background: #CBC9C9 url(      "../images/camera_test.png" ) 18px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .submitbtn:hover
+        {
+            background: #999898 url("../images/camera_test.png" ) 18px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px;
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .cancelbtn
+        {
+            background: #CBC9C9 url("../images/false.gif" ) 18px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px;
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .cancelbtn:hover
+        {
+            background: #999898 url("../images/false.gif" ) 18px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .updatebtn
+        {
+            background: #CBC9C9 url("../images/mpsingin.png" ) 15px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .updatebtn:hover
+        {
+            background: #999898 url("../images/mpsingin.png" ) 15px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .resetbtn
+        {
+            background: #CBC9C9 url("../images/reset.png" ) 17px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .resetbtn:hover
+        {
+            background: #999898 url("../images/reset.png" ) 17px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .newbtn
+        {
+            background: #CBC9C9 url("" ) no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .newbtn:hover
+        {
+            background: #999898 url("" ) no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        
+           .printer
+        {
+            background: #CBC9C9 url("../images/printer.jpg" ) 30px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+         .printer:hover
+        {
+            background: #999898 url("../images/printer.jpg" ) 30px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        
+        /*BUTTON CSS STARTS*/
+        
+        /*PRINTER BUTTON CSS STARTS */
+        
+        .printbtn
+        {
+            background: #CBC9C9 url("../images/reset.png" ) 17px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        .printbtn:hover
+        {
+            background: #999898 url("../images/reset.png" ) 17px no-repeat;
+            font-weight: normal;
+            border: solid 1px #A1A0A0;
+            height: 12px; 
+            font-size: 11px; 
+            cursor: hand;
+            font-weight: bold;
+            font-family: Tahoma, Lucida Sans;
+        }
+        
+        /*PRINTER BUTTON CSS ENDS */
+        
+        /* AUTO COMPLETEEXTENDER STARTS*/
+        
+        .completionList
+        {
+            border: solid 1px;
+            margin: 0px;
+            height: 200px;
+            background-color: White;
+            font-size: 12px;
+            overflow: auto;
+            z-index: 200000;
+        }
+        .AutoExtender
+        {
+            font-size: 12px;
+            border: solid 1px #006699;
+            background-color: White;
+            line-height: 20px;
+            padding: 0px;
+            margin: 0px;
+            height: 200px;
+            overflow: auto;
+            z-index: 200000;
+        }
+        .AutoExtenderList
+        {
+            border-top: dotted 1px #006699;
+            border-bottom: dotted 1px #006699;
+            cursor: pointer;
+            color: Maroon;
+            font-weight: bold;
+            overflow: auto;
+            z-index: 200000;
+        }
+        .AutoExtenderHighlight
+        {
+            color: #006699;
+            background-color: White;
+            cursor: pointer;
+        }
+        #divwidth
+        {
+            width: 150px !important;
+        }
+        #divwidth div
+        {
+            width: 150px !important;
+        }
+        
+         /* AUTO COMPLETEEXTENDER ENDS*/
+        
+         /*MODAL POPUP STARTS*/ 
+          
+           .modalBackground1
+        {
+            background-color: Gray;
+            filter: alpha(opacity=70);
+            opacity: 0.7;
+        }
+        
+        /*MODAL POPUP ENDS*/

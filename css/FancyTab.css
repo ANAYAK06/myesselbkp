@@ -1,0 +1,75 @@
+﻿fancy .ajax__tab_header
+{
+font-size:13px;
+font-weight:bold;
+color:#000;
+font-family:sans-serif;
+}
+.fancy .ajax__tab_body
+{
+border:solid 1px #dddddd;
+border-top:none;
+}
+.fancy .ajax__tab_active .ajax__tab_outer,
+.fancy .ajax__tab_header .ajax__tab_outer,
+.fancy .ajax__tab_hover .ajax__tab_outer
+{
+height:46px;
+}
+.fancy .ajax__tab_active .ajax__tab_inner,
+.fancy .ajax__tab_header .ajax__tab_inner,
+.fancy .ajax__tab_hover .ajax__tab_inner
+{
+height:46px;
+margin-left:16px; /* offset the width of the left image */
+}
+.fancy .ajax__tab_active .ajax__tab_tab,
+.fancy .ajax__tab_hover .ajax__tab_tab,
+.fancy .ajax__tab_header .ajax__tab_tab
+{
+margin:16px 16px 0px 0px;
+}
+.fancy .ajax__tab_hover .ajax__tab_tab,
+.fancy .ajax__tab_active .ajax__tab_tab
+{
+color:#fff;
+}
+.fancy .ajax__tab_body
+{
+font-family:verdana,tahoma,helvetica;
+font-size:10pt;
+
+}
+
+/*.fancy-green .ajax__tab_header
+{
+background:url(../images/green_bg.gif) repeat-x;
+}
+.fancy-green .ajax__tab_hover .ajax__tab_outer,
+.fancy-green .ajax__tab_active .ajax__tab_outer
+{
+background:url(../images/green_left.gif) no-repeat left top;
+cursor:pointer;
+}
+.fancy-green .ajax__tab_hover .ajax__tab_inner,
+.fancy-green .ajax__tab_active .ajax__tab_inner
+{
+background:url(../images/green_right.gif) no-repeat right top;
+}*/
+.fancy-blue .ajax__tab_header
+{
+background:url(../images/fblue_bg.gif) repeat-x;
+}
+.fancy-blue .ajax__tab_hover .ajax__tab_outer,
+.fancy-blue .ajax__tab_active .ajax__tab_outer
+{
+background:url(../images/fblue_left.gif) no-repeat left top;
+cursor:pointer;
+}
+.fancy-blue .ajax__tab_hover .ajax__tab_inner,
+.fancy-blue .ajax__tab_active .ajax__tab_inner
+{
+background:url(../images/fblue_right.gif) no-repeat right top;
+cursor:pointer;
+}
+

@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    
+    <title>MyEssel</title>
+    <style>
+
+div {
+    background-color:#ffffcc;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border-style:solid;
+    border-color:Black;
+    border-width:1px;
+}
+
+</style>
+</head>
+<body onload="setFocus()" topmargin="0" leftmargin="0" style="margin:0px,0px,0px,0px">
+    
+  <div>
+    MyEssel is currently offline. We're performing upgrades to the application and will be back soon.
+  </div>
+</body>
+</html>

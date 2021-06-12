@@ -1,0 +1,232 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Essel.master.cs" Inherits="Essel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--    <link href="Css/AjaxStyles.css" rel="stylesheet" type="text/css" />
+--%>
+    <link href="Css/bubble-tooltip.css" rel="stylesheet" type="text/css" />
+    <link href="Css/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="Css/calender-blue.css" rel="stylesheet" type="text/css" />
+    <link href="Css/ccMessageBox.css" rel="stylesheet" type="text/css" />
+    <link href="Css/FancyTab.css" rel="stylesheet" type="text/css" />
+    <link href="Css/jquery-ui-1.8.6.custom.css" rel="stylesheet" type="text/css" />
+    <link href="Css/jquery.fancybox-1.3.1.css" rel="stylesheet" type="text/css" />
+    <link href="Css/listgrid.css" rel="stylesheet" type="text/css" />
+    <link href="Css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="Css/notebook.css" rel="stylesheet" type="text/css" />
+    <link href="Css/pager.css" rel="stylesheet" type="text/css" />
+    <link href="Css/print.css" rel="stylesheet" type="text/css" />
+    <link href="Css/screen.css" rel="stylesheet" type="text/css" />
+    <link href="Css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Css/treegrid.css" rel="stylesheet" type="text/css" />
+    <link href="Css/V-Menu.css" rel="stylesheet" type="text/css" />
+
+    <script src="Java_Script/bubble-tooltip.js" type="text/javascript"></script>
+
+    <script src="Java_Script/newcalendar.js" type="text/javascript"></script>
+
+    <script src="Java_Script/MochiKit.js" type="text/javascript"></script>
+
+    <script src="Java_Script/validations.js" type="text/javascript"></script>
+
+    <script src="Java_Script/JScript.js" type="text/javascript"></script>
+
+    <script src="Java_Script/calendar.js" type="text/javascript"></script>
+
+    <script src="Java_Script/calendar-setup.js" type="text/javascript"></script>
+
+    <script src="Java_Script/accordion.js" type="text/javascript"></script>
+
+    <script language="JavaScript">
+        javascript: window.history.forward(1);
+
+    </script>
+
+    <style type="text/css">
+        #corner p.feedback a
+        {
+            /*color: #9a0404;*/
+        }
+        #corner p.feedback img
+        {
+            vertical-align: middle;
+            margin-right: 0.5em;
+            width: 32px;
+        }
+       
+       
+         a.req_messages
+        {
+           
+            position: relative;
+        }
+        span.notif_s
+        {
+            position: absolute !important;
+            background: #e60404 !important;
+            left: 0% !important;
+            top: -2px !important;
+            border-radius: 30px !important;
+            line-height: 16px !important;
+            font-size: 8px !important;
+            font-family: Helvetica !important;
+            text-align: left !important;
+            color: #FFF !important;
+            padding: 0px 1px !important;
+            width: 25px !important;
+            text-indent: 0px !important;
+        }
+    </style>
+    <%--<script language="JavaScript"> var message="Function Disabled!"; 
+   function clickIE4(){ if (event.button==2){ alert(message); return false; } } 
+    function clickNS4(e){ 
+    if (document.layers||document.getElementById&&!document.all){ 
+    if (e.which==2||e.which==3){ alert(message); return false; } } } 
+    if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } 
+    else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") 
+    </script>--%>
+</head>
+<body ondragstart="return false" onselectstart="return false">
+    <form id="form1" runat="server">
+    <cc1:ToolkitScriptManager runat="server" EnablePageMethods="true">
+    </cc1:ToolkitScriptManager>
+    <div id="root">
+        <center>
+            <table id="content" width="979">
+                <tr>
+                    <td align="center" width="991">
+                        <table width="922px" bgcolor="#F0EEEE" style="border: 1px solid #999999;">
+                            <tr>
+                                <td id="top" colspan="3">
+                                    <p id="cmp_logo">
+                                        <a target="_top">
+                                            <img alt="" id=""  src="logo1.jpg" height="65px" width="180px" />
+                                        </a>
+                                    </p>
+                                    <%-- <h1 id="title-menu">
+                                        <small>Demo User</small>
+                                    </h1>--%>
+                                    <ul id="skip-links">
+                                        <li><a href="#nav" accesskey="n">Skip to navigation [n]</a></li>
+                                        <li><a href="#content" accesskey="c">Skip to content [c]</a></li>
+                                        <li><a href="#footer" accesskey="f">Skip to footer [f]</a></li>
+                                    </ul>
+                                    <div id="corner">
+                                        <p class="logout feedback">
+                                            <a href="Support.aspx" style="font-size: smaller; font-family: Tahoma; font-weight: bold;">
+                                                <%--<img src="images/busy.png" style="width: 20px; height: 15px" />--%>Support</a>
+                                        </p>
+                                        <%-- <p class="logout feedback">
+                                            <a href="#" onclick="" style="font-size: smaller; font-family: Tahoma; font-weight: bold;">
+                                                <img src="images/uv_favicon.png" style="width: 20px; height: 15px;" />feedback</a></p>--%>
+                                        <ul class="tools">
+                                            <li><a href="MenuContents.aspx" target="_top" class="home" id="home" runat="server">Home</a>
+                                                <ul>
+                                                    <li class="first last"><a href="MenuContents.aspx" target="_top" id="home1" runat="server">Home</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="Inbox.aspx" class="req_messages" id="inbox" runat="server"><span runat="server" id="pen" class="notif_s"></span></a>
+                                                <ul>
+                                                    <li class="first last"><a href="Inbox.aspx" id="inbox1" runat="server">Inbox</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="preferences"><a href="ChangePassword.aspx" class="preferences" target="_blank" id="ChangePassword" runat="server">
+                                                Change Password</a>
+                                                <ul>
+                                                    <li class="first last"><a href="ChangePassword.aspx" target="_blank" id="ChangePassword1" runat="server">Change Password</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="" target="_top" class="info">About</a>
+                                                <ul>
+                                                    <li class="first last"><a href="" target="_top">About</a></li>
+                                                </ul>
+                                            </li>
+                                            <%--   <li><a target="_blank" href="" class="help">Help</a>
+                                                <ul>
+                                                    <li class="first last"><a target="_blank" href="">Help</a></li>
+                                                </ul>
+                                            </li>--%>
+                                            <%-- <li id="clear_cache"><a href="" class="clear_cache">Clear Cache</a>
+                                                <ul>
+                                                    <li class="first last"><a href="">Clear Cache</a></li>
+                                                </ul>
+                                            </li>--%>
+                                        </ul>
+                                        <%--    <p class="logout feedback">
+                                            <a href="#" onclick="" target="_top" style="font-size: smaller; font-family: Lucida Fax;
+                                                font-weight: bold;"></a></p>--%>
+                                        <p class="logout feedback" style="font-size: smaller; font-family: Lucida Fax; font-weight: bold;">
+                                            <asp:LinkButton ID="lbtnLogout" runat="server" OnClick="lbtnLogout_Click">Log Out</asp:LinkButton></p>
+                                    </div>
+                                    <div id="shortcuts" class="menubar" style="padding-right: 450px; padding-top: 12px;">
+                                        <div class="right scroller">
+                                        </div>
+                                        <div class="left scroller">
+                                        </div>
+                                        <ul>
+                                            <li class="first"><span>Wel Come</span></li>
+                                            <li class=""><span id="FirstName" runat="server"></span></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%">
+                                        <tr>
+                                            <td id="main_nav" colspan="6" valign="top">
+                                                <div id="applications_menu">
+                                                    <div class="right scroller">
+                                                    </div>
+                                                    <div class="left scroller">
+                                                    </div>
+                                                    <ul>
+                                                        <li><a href="PurchaseHome.aspx" class="" runat="server" id="Purchase"><span>Purchase</span></a></li>
+                                                        <li><a href="WareHouseHome.aspx" target="_top" id="WareHouse" runat="server"><span>WareHouse</span>
+                                                        </a></li>
+                                                        <li><a href="#" target="_top" id="Project" runat="server"><span>Project</span> </a>
+                                                        </li>
+                                                        <li><a href="AccountHome.aspx" target="_top" id="Accounting" runat="server"><span>Accounts</span>
+                                                        </a></li>
+                                                        <li><a href="HR/HRHome.aspx" target="_top" class="" id="HumanResources" runat="server">
+                                                            <span>Human Resources</span> </a></li>
+                                                        <li><a href="ToolHome.aspx" target="_top" class="" id="Tools" runat="server"><span>Tools</span>
+                                                        </a></li>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <li><a href="TransitDays.aspx" id="Alert" runat="server" target="_top" class="">
+                                                            <img src="images/check_icon.gif" style="width: 85px; height: 22px" alt="Alert" /></a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="height: 500px">
+                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td id="footer_section" colspan="6">
+                                                <div class="footer-b">
+                                                    <p class="powered">
+                                                        Powered by <a target="_blank" href="#">SL Touch</a>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    </form>
+</body>
+</html>

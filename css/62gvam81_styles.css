@@ -1,0 +1,6 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+.Normal{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:115%;margin-top:0pt;margin-bottom:10pt;font-family:Calibri;font-size:11pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Default-Paragraph-Font{font-family:Calibri;font-size:10pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.Table-Normal{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;margin-top:0pt;margin-bottom:0pt;font-family:Calibri;font-size:10pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}
+.No-List{text-align:left;page-break-inside:auto;page-break-after:auto;page-break-before:avoid;line-height:normal;margin-top:0pt;margin-bottom:0pt;font-family:Calibri;font-size:10pt;text-transform:none;font-weight:normal;font-style:normal;font-variant:normal;}

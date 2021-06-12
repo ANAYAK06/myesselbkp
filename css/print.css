@@ -1,0 +1,98 @@
+﻿		.pestbl
+        {
+            border-left: 1px solid #8B8A8A;
+            border-right: 0 solid #8B8A8A;
+            border-top: 0 solid #8B8A8A;
+            border-bottom: 1px solid #8B8A8A;
+            border-spacing: 0;
+            background-color: White;
+            border-collapse: collapse;
+            margin-right: 0px;
+        }
+        .pestbl td
+        {
+            margin: 0;
+            padding: 4px;
+            border-width: 1px 1px 0 0;
+            background-color: #fffff;
+            border-color: #8B8A8A;
+            border-style: outset;
+            table-layout: fixed;
+            border: 1px solid #000;
+        }
+        .pestbl tr
+        {
+            margin: 0;
+            padding: 4px;
+            border-width: 1px 1px 0 0;
+            background-color: #fffff;
+            border-color: #8B8A8A;
+            border-style: outset;
+            table-layout: fixed;
+            border: 1px solid #000;
+        }
+        .pestbl th
+        {
+            margin: 0;
+            padding: 4px;
+            border-width: 1px 1px 0 0;
+            background-color: #c4c3c3;
+            border-color: #8B8A8A;
+            border-style: solid;
+        }
+        .pestblsub
+        {
+            border-width: 0 0 1px 1px;
+            border-spacing: 0;
+            border-collapse: collapse;
+            border-color: #8B8A8A;
+            border-style: solid;
+        }
+        .peslbl
+        {
+            font-family: Verdana;
+            font-size: small;
+            font-style: normal;
+            font-weight: bold;
+            color: black;
+        }
+        .peslbl1
+        {
+            font-family: Tahoma;
+            font-size: smaller;
+            font-style: normal;
+            font-weight: bold;
+            color: black;
+        }
+        .peslblfooter
+        {
+            font-family: Tahoma;
+            font-size: small;
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+        }
+        .pestbox
+        {
+            font-family: Times New Roman Baltic;
+            background-color: white;
+            font-size: 14px;
+            border-color: Black;
+        }
+        .pmGrid
+        {
+            width: 100%;
+            background-color: #fff;
+            margin: 5px 0 10px 0;
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+        .pmGrid td
+        {
+            padding: 2px;
+            border: solid 1px;
+            color: Black;
+            font-family: Tahoma;
+            font-size: smaller;
+            font-weight: bold;
+        }
